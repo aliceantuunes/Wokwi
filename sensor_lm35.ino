@@ -17,7 +17,7 @@ void loop() {
     temperature = temperature * 100.0;
     soma += temperature;
   }
-  temp = soma / 1000.0; // Calcula a média de 1000 leituras para eliminar ruído
+  temp = soma / 1000.0; 
 
   Serial.print("Temperatura LM35: ");
   Serial.print(temp);
